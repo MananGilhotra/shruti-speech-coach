@@ -1,0 +1,1316 @@
+[
+ {
+  "render_id": "S1__gradient__b1-L00",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 0,
+  "labels": [],
+  "duration_s": 46.375,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L01",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 1,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 1,
+    "param": 0.3,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 1.2371,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 1,
+    "param": 0.8,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 11.6722,
+    "t_end": 14.6931,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 1,
+    "param": 1.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.1897,
+    "t_end": 20.3994,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 46.884,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L02",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 2,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 2,
+    "param": 0.3875,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 1.3246,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 2,
+    "param": 0.635,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 11.7597,
+    "t_end": 14.7806,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 2,
+    "param": 1.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.2772,
+    "t_end": 20.4869,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 46.972,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L03",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 3,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 3,
+    "param": 0.5004,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 1.4374,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 3,
+    "param": 0.504,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 11.8726,
+    "t_end": 14.8935,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 3,
+    "param": 1.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.3901,
+    "t_end": 20.5998,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 47.085,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L04",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 4,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 4,
+    "param": 0.6463,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 1.5834,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 4,
+    "param": 0.4,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 12.0186,
+    "t_end": 15.0394,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 4,
+    "param": 1.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.536,
+    "t_end": 20.7457,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 47.231,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L05",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 5,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 5,
+    "param": 0.8348,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 1.7719,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 5,
+    "param": 0.3175,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 12.2071,
+    "t_end": 15.2279,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 5,
+    "param": 2.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.7245,
+    "t_end": 21.1495,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 47.635,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L06",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 6,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 6,
+    "param": 1.0781,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 2.0152,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 6,
+    "param": 0.252,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 12.4504,
+    "t_end": 15.4712,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 6,
+    "param": 2.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 20.9678,
+    "t_end": 21.3928,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 47.878,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L07",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 7,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 7,
+    "param": 1.3925,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 2.3296,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 7,
+    "param": 0.2,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 12.7647,
+    "t_end": 15.7856,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 7,
+    "param": 2.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 21.2822,
+    "t_end": 21.7072,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 48.192,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L08",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 8,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 8,
+    "param": 1.7985,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 2.7356,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 8,
+    "param": 0.1587,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 13.1707,
+    "t_end": 16.1916,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 8,
+    "param": 2.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 21.6882,
+    "t_end": 22.1132,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 48.598,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L09",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 9,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 9,
+    "param": 2.3228,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 3.2599,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 9,
+    "param": 0.126,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 13.6951,
+    "t_end": 16.7159,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 9,
+    "param": 3.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 22.2125,
+    "t_end": 22.8387,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 49.324,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S1__gradient__b1-L10",
+  "script_id": "S1",
+  "layer": "gradient",
+  "level": 10,
+  "labels": [
+   {
+    "flaw_id": "f3",
+    "type": "long_pause",
+    "level": 10,
+    "param": 3.0,
+    "words": [
+     2,
+     2
+    ],
+    "t_start": 0.9371,
+    "t_end": 3.9371,
+    "t_start_source": 0.61,
+    "t_end_source": 0.95
+   },
+   {
+    "flaw_id": "f1",
+    "type": "monotone",
+    "level": 10,
+    "param": 0.1,
+    "words": [
+     24,
+     27
+    ],
+    "t_start": 14.3722,
+    "t_end": 17.3931,
+    "t_start_source": 11.35,
+    "t_end_source": 14.4
+   },
+   {
+    "flaw_id": "f2",
+    "type": "stutter",
+    "level": 10,
+    "param": 3.0,
+    "words": [
+     34,
+     34
+    ],
+    "t_start": 22.8897,
+    "t_end": 23.5159,
+    "t_start_source": 19.97,
+    "t_end_source": 20.27
+   }
+  ],
+  "duration_s": 50.001,
+  "bundle": [
+   "monotone",
+   "stutter",
+   "long_pause"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L00",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 0,
+  "labels": [],
+  "duration_s": 45.715,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L01",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 1,
+  "labels": [
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 1,
+    "param": 0.3,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 20.6716,
+    "t_end": 20.9716,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 1,
+    "param": 2.0,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 28.3461,
+    "t_end": 31.009,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 1,
+    "param": 0.2,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 41.0305,
+    "t_end": 41.2305,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 46.375,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L02",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 2,
+  "labels": [
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 2,
+    "param": 0.3875,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 20.6716,
+    "t_end": 21.0591,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 2,
+    "param": 2.553,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 28.4336,
+    "t_end": 31.0965,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 2,
+    "param": 0.2333,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 41.118,
+    "t_end": 41.3513,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 46.496,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L03",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 3,
+  "labels": [
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 3,
+    "param": 0.5004,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 20.6716,
+    "t_end": 21.172,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 3,
+    "param": 3.259,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 28.5465,
+    "t_end": 31.2093,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 3,
+    "param": 0.2722,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 41.2309,
+    "t_end": 41.503,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 46.648,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L04",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 4,
+  "labels": [
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 4,
+    "param": 0.3175,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 11.8334,
+    "t_end": 12.1509,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 4,
+    "param": 0.6463,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 21.1491,
+    "t_end": 21.7954,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 4,
+    "param": 4.1602,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 29.1699,
+    "t_end": 31.8328,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 4,
+    "param": 0.3175,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 41.8543,
+    "t_end": 42.1718,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 47.317,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L05",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 5,
+  "labels": [
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 5,
+    "param": 0.3703,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 11.8334,
+    "t_end": 12.2037,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 5,
+    "param": 0.8348,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 21.2019,
+    "t_end": 22.0367,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 5,
+    "param": 5.3105,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 29.4113,
+    "t_end": 32.0741,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 5,
+    "param": 0.3703,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 42.0956,
+    "t_end": 42.4659,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 47.611,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L06",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 6,
+  "labels": [
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 6,
+    "param": 0.432,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 11.8334,
+    "t_end": 12.2654,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 6,
+    "param": 1.0781,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 21.2636,
+    "t_end": 22.3417,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 6,
+    "param": 6.779,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 29.7163,
+    "t_end": 32.3791,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 6,
+    "param": 0.432,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 42.4006,
+    "t_end": 42.8326,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 47.977,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L07",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 7,
+  "labels": [
+   {
+    "flaw_id": "f3c",
+    "type": "filler",
+    "level": 7,
+    "param": 0.504,
+    "words": [
+     1,
+     1
+    ],
+    "t_start": 2.1054,
+    "t_end": 2.6094,
+    "t_start_source": 3.12,
+    "t_end_source": 3.74
+   },
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 7,
+    "param": 0.504,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 12.4974,
+    "t_end": 13.0014,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 7,
+    "param": 1.3925,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 21.9996,
+    "t_end": 23.3921,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 7,
+    "param": 8.6535,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 30.7666,
+    "t_end": 33.4295,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 7,
+    "param": 0.504,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 43.451,
+    "t_end": 43.955,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 49.1,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L08",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 8,
+  "labels": [
+   {
+    "flaw_id": "f3c",
+    "type": "filler",
+    "level": 8,
+    "param": 0.5879,
+    "words": [
+     1,
+     1
+    ],
+    "t_start": 2.1054,
+    "t_end": 2.6933,
+    "t_start_source": 3.12,
+    "t_end_source": 3.74
+   },
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 8,
+    "param": 0.5879,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 12.5813,
+    "t_end": 13.1691,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 8,
+    "param": 1.7985,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 22.1674,
+    "t_end": 23.9659,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 8,
+    "param": 11.0463,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 31.3404,
+    "t_end": 34.0032,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 8,
+    "param": 0.5879,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 44.0247,
+    "t_end": 44.6126,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 49.758,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L09",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 9,
+  "labels": [
+   {
+    "flaw_id": "f3c",
+    "type": "filler",
+    "level": 9,
+    "param": 0.6858,
+    "words": [
+     1,
+     1
+    ],
+    "t_start": 2.1054,
+    "t_end": 2.7912,
+    "t_start_source": 3.12,
+    "t_end_source": 3.74
+   },
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 9,
+    "param": 0.6858,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 12.6792,
+    "t_end": 13.365,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 9,
+    "param": 2.3228,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 22.3632,
+    "t_end": 24.6861,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 9,
+    "param": 14.1009,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 32.0606,
+    "t_end": 34.7234,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 9,
+    "param": 0.6858,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 44.7449,
+    "t_end": 45.4307,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 50.576,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ },
+ {
+  "render_id": "S3__gradient__b1-L10",
+  "script_id": "S3",
+  "layer": "gradient",
+  "level": 10,
+  "labels": [
+   {
+    "flaw_id": "f3c",
+    "type": "filler",
+    "level": 10,
+    "param": 0.8,
+    "words": [
+     1,
+     1
+    ],
+    "t_start": 2.1054,
+    "t_end": 2.9054,
+    "t_start_source": 3.12,
+    "t_end_source": 3.74
+   },
+   {
+    "flaw_id": "f3b",
+    "type": "filler",
+    "level": 10,
+    "param": 0.8,
+    "words": [
+     11,
+     11
+    ],
+    "t_start": 12.7934,
+    "t_end": 13.5934,
+    "t_start_source": 12.78,
+    "t_end_source": 13.24
+   },
+   {
+    "flaw_id": "f1",
+    "type": "long_pause",
+    "level": 10,
+    "param": 3.0,
+    "words": [
+     24,
+     24
+    ],
+    "t_start": 22.5916,
+    "t_end": 25.5916,
+    "t_start_source": 22.26,
+    "t_end_source": 22.42
+   },
+   {
+    "flaw_id": "f2",
+    "type": "volume_fade",
+    "level": 10,
+    "param": 18.0,
+    "words": [
+     38,
+     41
+    ],
+    "t_start": 32.9661,
+    "t_end": 35.629,
+    "t_start_source": 30.44,
+    "t_end_source": 33.36
+   },
+   {
+    "flaw_id": "f3d",
+    "type": "filler",
+    "level": 10,
+    "param": 0.8,
+    "words": [
+     46,
+     46
+    ],
+    "t_start": 38.1557,
+    "t_end": 38.9557,
+    "t_start_source": 35.97,
+    "t_end_source": 36.56
+   },
+   {
+    "flaw_id": "f3a",
+    "type": "filler",
+    "level": 10,
+    "param": 0.8,
+    "words": [
+     57,
+     57
+    ],
+    "t_start": 46.6105,
+    "t_end": 47.4105,
+    "t_start_source": 44.76,
+    "t_end_source": 45.12
+   }
+  ],
+  "duration_s": 52.555,
+  "bundle": [
+   "long_pause",
+   "volume_fade",
+   "filler"
+  ]
+ }
+]

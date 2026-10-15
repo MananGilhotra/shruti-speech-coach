@@ -1,0 +1,16 @@
+{
+ "script_id": "S5",
+ "speaker": "Dwight D. Eisenhower",
+ "year": 1961,
+ "excerpt_s": [
+  494.3,
+  538.8
+ ],
+ "duration_s": 44.5,
+ "n_words": 90,
+ "asr_wer": 0.077,
+ "sha256": "21f6909821f314211aac0dfe7aad3b9de749c862f86cb435624e916610681c69",
+ "source_sha256": "220b342a83842c31a416597f237bcbea0bd73cd5d4699c3514d70c41b2e5b12a",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:Eisenhower_farewell_address.ogg"
+}

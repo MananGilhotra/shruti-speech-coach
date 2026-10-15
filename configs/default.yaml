@@ -1,0 +1,137 @@
+# SHRUTI default configuration. Every reported number is produced with this file;
+# its SHA-256 is part of each analysis fingerprint.
+
+audio:
+  sample_rate: 16000
+  peak_dbfs: -1.0
+  max_seconds: 180
+
+alignment:
+  model: facebook/wav2vec2-base-960h
+  device: cpu            # cpu keeps results bit-reproducible across machines
+  chunk_seconds: 30
+  max_wer: 0.35          # quality gate: greedy-CTC transcript vs script
+
+features:
+  version: 3              # bump when feature code changes (invalidates cached takes)
+  hop_s: 0.01
+  n_fft: 512
+  win_length: 400
+  n_mfcc: 13
+  n_mels: 40
+  f0_floor_hz: 60
+  f0_ceiling_hz: 500
+  cpp_window_s: 0.04
+  cpp_quefrency_ms: [2.5, 13.3]
+  pause_min_s: 0.12
+  silence_db_below_median: 18
+
+# Prior spread of each comparison feature between *good* deliveries of the same
+# words, after removing each speaker's global offset. Used as s0 in the
+# empirical-Bayes shrinkage (section 7.1 of the blueprint). Re-estimated from the
+# human good takes once Flaw Studio data is in (`python -m shruti priors`).
+baseline:
+  nu0: 30
+  boundary_noise_s: 0.025   # alignment uncertainty of each word edge
+  priors:
+    log_dur: 0.16
+    pause_after: 0.12
+    f0_med_st: 1.8
+    f0_max_st: 2.0
+    f0_range_st: 2.0
+    int_med_db: 2.5
+    int_max_db: 2.5
+    cpp_db: 1.5
+    hnr_db: 2.5
+    tilt_db: 2.5
+    cent_oct: 0.20
+    prominence: 0.9
+    prom_pi: 0.9
+    voiced_ratio: 0.18
+    f0_range_log: 0.30      # log-ratio spread of pitch range over a 4-6 word window
+    gap_voiced_s: 0.08      # voiced material between two words that no word accounts for
+
+detect:
+  fdr_q: 0.05
+  # Empirical null (Efron 2004): each recording estimates the spread of its own z-scores per
+  # test family (median / MAD), bounded so a few tests can never inflate sensitivity.
+  empirical_null:
+    enabled: true
+    families: [tempo, level, clarity, monotone, emphasis]
+    sd_bounds: [1.0, 2.5]   # widen-only: a recording can make the detector more cautious, never bolder
+    mean_bound: 0.5
+  neighbour_rho: 0.3     # assumed correlation of neighbouring word deviations
+  windows:              # one scale per family keeps the number of tests (and the FDR bar) down
+    tempo: [3]
+    level: [3]
+    clarity: [3]
+    monotone: [5]
+  phrase_tempo: true    # also test whole inter-pause phrases (edges on silences = precise)
+  encoder:              # contrastive delivery encoder as an extra test family (ships only if it helps on dev)
+    enabled: false
+    min_type_prob: 0.4
+  practical:
+    tempo_log_ratio: 0.18      # >= ~20% faster/slower than expected
+    pause_long_extra_s: 0.35
+    pause_missing_ref_s: 0.25
+    pause_missing_keep: 0.35   # observed pause <= 35% of the expected one
+    monotone_log_ratio: 0.45   # pitch range at most ~64% of expected
+    level_drop_db: 3.5
+    clarity_z: 1.6
+    emphasis_db: 2.5
+    emphasis_st: 1.0
+  filler:
+    min_s: 0.15
+    max_s: 1.6
+    min_voiced: 0.55
+    max_f0_range_st: 3.5
+  stutter:
+    max_burst_s: 0.35
+    min_similarity: 0.85      # frame-by-frame MFCC cosine between a burst and the word onset
+  merge_gap_words: 1
+  ipu_gap_s: 0.25          # tempo windows never cross a pause or hesitation this long
+  bootstrap:
+    B: 40
+    boundary_jitter_s: 0.015
+    seed: 1337
+
+rubric:
+  severity_cost: {1: 0.3, 2: 0.6, 3: 1.0, 4: 1.6, 5: 2.5}
+  severity_z: [2.5, 3.5, 5.0, 7.0, 10.0]
+  style_penalty_max: 2.0
+  weights: {pacing: 1, pausing: 1, intonation: 1, projection: 1, fluency: 1, clarity: 1, emphasis: 1}
+  wsdc: {low: 24, high: 32}
+
+coach:
+  pitch_blend: 0.8
+  dur_factor_clamp: [0.5, 2.0]
+  ramp_s: 0.02
+  xfade_s: 0.015
+
+eval:
+  iou_match: 0.5
+  iou_report: [0.3, 0.5, 0.7]
+  bootstrap_B: 2000
+  seed: 1337
+
+inject:
+  # parameter at Level 1 and Level 10; levels in between are spaced geometrically
+  ladder:
+    rushed: [1.08, 1.8]            # speech-rate factor over the span
+    dragged: [1.10, 2.0]           # duration factor over the span
+    long_pause: [0.30, 3.0]        # seconds of silence added
+    missing_pause: [0.80, 0.02]    # share of the original pause that is kept
+    monotone: [0.80, 0.10]         # pitch-range factor
+    volume_fade: [2.0, 18.0]       # dB depth of the fade
+    mumble: [6000, 1500]           # low-pass cut-off in Hz
+    filler: [0.20, 0.80]           # filler length in s (count grows 1 -> 4 with level)
+    stutter: [1, 3]                # repeated onsets
+    misplaced_emphasis: [1.0, 10.0]  # dB boost on a function word (+0.6 st per dB)
+  span_words: [3, 6]
+  nuisance:                        # natural variation that must NOT be flagged
+    tempo: [0.92, 1.08]
+    word_jitter_sd: 0.06
+    pitch_shift_st: [-2.0, 2.0]
+    pitch_range: [0.85, 1.15]
+    gain_db: [-6, 6]
+    formant_ratio: [0.92, 1.10]

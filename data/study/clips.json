@@ -1,0 +1,142 @@
+[
+ {
+  "clip_id": "c01",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c02",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c03",
+  "duration_s": 29.78,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c04",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c05",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c06",
+  "duration_s": 30.0,
+  "script_id": "S5"
+ },
+ {
+  "clip_id": "c07",
+  "duration_s": 30.0,
+  "script_id": "S3"
+ },
+ {
+  "clip_id": "c08",
+  "duration_s": 26.84,
+  "script_id": "S2"
+ },
+ {
+  "clip_id": "c09",
+  "duration_s": 30.0,
+  "script_id": "S5"
+ },
+ {
+  "clip_id": "c10",
+  "duration_s": 26.95,
+  "script_id": "S2"
+ },
+ {
+  "clip_id": "c11",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c12",
+  "duration_s": 30.0,
+  "script_id": "S3"
+ },
+ {
+  "clip_id": "c13",
+  "duration_s": 30.0,
+  "script_id": "S3"
+ },
+ {
+  "clip_id": "c14",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c15",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c16",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c17",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c18",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c19",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c20",
+  "duration_s": 30.0,
+  "script_id": "S3"
+ },
+ {
+  "clip_id": "c21",
+  "duration_s": 30.0,
+  "script_id": "S5"
+ },
+ {
+  "clip_id": "c22",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "c23",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "c24",
+  "duration_s": 30.0,
+  "script_id": "S5"
+ },
+ {
+  "clip_id": "r01",
+  "duration_s": 30.0,
+  "script_id": "S4"
+ },
+ {
+  "clip_id": "r02",
+  "duration_s": 29.78,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "r03",
+  "duration_s": 30.0,
+  "script_id": "S6"
+ },
+ {
+  "clip_id": "r04",
+  "duration_s": 30.0,
+  "script_id": "S3"
+ }
+]

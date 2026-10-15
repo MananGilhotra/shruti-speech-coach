@@ -1,0 +1,16 @@
+{
+ "script_id": "S4",
+ "speaker": "Barack Obama",
+ "year": 2009,
+ "excerpt_s": [
+  394.3,
+  440.3
+ ],
+ "duration_s": 46.0,
+ "n_words": 128,
+ "asr_wer": 0.055,
+ "sha256": "e85c04498ebf074768b255de921a66e613414566e0487465512a02747b7a378a",
+ "source_sha256": "55cd904f82466a6ba4806381e7527c735207d55efba4452818797e9ff410ec56",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:Barack_Obama_inauguration_speech_2009.ogg"
+}

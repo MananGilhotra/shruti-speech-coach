@@ -1,0 +1,52 @@
+[
+ {
+  "id": "S1__gradient__b1-L09",
+  "title": "JFK 1961: long pause, flat pitch and a stutter",
+  "description": "Three flaws at severity 9 of 10 injected into a re-voiced copy of the inaugural address. All three are found, nothing else is flagged.",
+  "analysis_id": "8bde054e8acef649",
+  "script_id": "S1",
+  "n_flags": 3,
+  "n_injected": 3,
+  "overall": 9.27
+ },
+ {
+  "id": "S3__gradient__b1-L09",
+  "title": "FDR 1941: hesitations and a fading voice",
+  "description": "Fillers made from FDR's own voice, an awkward pause and a fade, in a noisy 1941 recording. Five of five found.",
+  "analysis_id": "56a206515b899a99",
+  "script_id": "S3",
+  "n_flags": 5,
+  "n_injected": 5,
+  "overall": 8.54
+ },
+ {
+  "id": "S1__clean__0",
+  "title": "JFK 1961, natural variation only",
+  "description": "Tempo, word timing, pitch, loudness and timbre changed the way a different good reader would. SHRUTI should flag nothing.",
+  "analysis_id": "b396e06970d83ec1",
+  "script_id": "S1",
+  "n_flags": 0,
+  "n_injected": 0,
+  "overall": 10.0
+ },
+ {
+  "id": "S2__voice__3",
+  "title": "JFK 1962 as a different voice",
+  "description": "Formants and pitch moved to another speaker's range, nothing else. A speaker-agnostic system flags nothing.",
+  "analysis_id": "067b2b94d8aac77a",
+  "script_id": "S2",
+  "n_flags": 0,
+  "n_injected": 0,
+  "overall": 10.0
+ },
+ {
+  "id": "S1__gradient__b1-L06",
+  "title": "Near the threshold: the same flaws at severity 6",
+  "description": "Milder versions of the first demo. Two of three are found; the mild monotone stretch is below the detection threshold.",
+  "analysis_id": "19f594b05daa6945",
+  "script_id": "S1",
+  "n_flags": 2,
+  "n_injected": 3,
+  "overall": 9.52
+ }
+]

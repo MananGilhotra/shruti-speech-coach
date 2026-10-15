@@ -1,0 +1,16 @@
+{
+ "script_id": "S3",
+ "speaker": "Franklin D. Roosevelt",
+ "year": 1941,
+ "excerpt_s": [
+  12.82,
+  62.4
+ ],
+ "duration_s": 49.58,
+ "n_words": 66,
+ "asr_wer": 0.104,
+ "sha256": "4c1bfdd5c5fb22d35e6aee057e818fa9df60e26003abbe061f5cf735b07081a5",
+ "source_sha256": "ae3cf3888dbebdb0318d6c3e91c7b4355e37912ac1c41ef48cf197dccc85f6ea",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:FDR's_Speech_to_the_Congress_regarding_the_naval_attack_on_Pearl_Harbor.ogg"
+}

@@ -1,0 +1,27 @@
+Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights: 100%|██████████| 212/212 [00:00<00:00, 8340.92it/s]
+Loading weights: 100%|██████████| 212/212 [00:00<00:00, 8115.74it/s]
+Loading weights: 100%|██████████| 212/212 [00:00<00:00, 7738.37it/s]
+Loading weights: 100%|██████████| 212/212 [00:00<00:00, 8055.96it/s]
+Loading weights:   0%|          | 0/212 [00:00<?, ?it/s]Loading weights: 100%|██████████| 212/212 [00:00<00:00, 21835.14it/s]
+predicted 50/308
+predicted 100/308
+/Users/manangilhotra010/Desktop/Multimodel Hackathon/shruti/src/shruti/detect/core.py:272: RuntimeWarning: Mean of empty slice
+  ev = {f"{f}_z": float(np.nanmean(C[n, i:i + k])) for n, f in enumerate(("tilt", "centroid", "cpp"))}
+predicted 150/308
+predicted 200/308
+predicted 250/308
+predicted 300/308
+/Users/manangilhotra010/Desktop/Multimodel Hackathon/shruti/results/bench/predictions_frozen_test.jsonl
+predicted 50/606
+predicted 100/606
+predicted 150/606
+predicted 200/606
+predicted 250/606
+predicted 300/606
+predicted 350/606
+predicted 400/606
+predicted 450/606
+predicted 500/606
+predicted 550/606
+predicted 600/606
+/Users/manangilhotra010/Desktop/Multimodel Hackathon/shruti/results/bench/predictions_frozen_dev.jsonl

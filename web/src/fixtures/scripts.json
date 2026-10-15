@@ -1,0 +1,74 @@
+[
+ {
+  "script_id": "S1",
+  "title": "Inaugural Address \u2014 \"Let the word go forth\"",
+  "speaker": "John F. Kennedy",
+  "year": 1961,
+  "transcript": "Let the word go forth from this time and place, to friend and foe alike, that the torch has been passed to a new generation of Americans, born in this century, tempered by war, disciplined by a hard and bitter peace, proud of our ancient heritage, and unwilling to witness or permit the slow undoing of those human rights to which this nation has always been committed, and to which we are committed today at home and around the world.",
+  "duration_s": 46.69,
+  "n_refs": 1,
+  "split": "dev",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:JFK_inaugural_address.ogg"
+ },
+ {
+  "script_id": "S2",
+  "title": "Rice University address \u2014 \"We choose to go to the Moon\"",
+  "speaker": "John F. Kennedy",
+  "year": 1962,
+  "transcript": "We choose to go to the moon in this decade and do the other things, not because they are easy, but because they are hard; because that goal will serve to organize and measure the best of our energies and skills; because that challenge is one that we're willing to accept, one we are unwilling to postpone, and one we intend to win, and the others, too.",
+  "duration_s": 26.6,
+  "n_refs": 1,
+  "split": "dev",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Jfk_rice_university_we_choose_to_go_to_the_moon.ogg"
+ },
+ {
+  "script_id": "S3",
+  "title": "Address to Congress \u2014 \"A date which will live in infamy\"",
+  "speaker": "Franklin D. Roosevelt",
+  "year": 1941,
+  "transcript": "Yesterday, December 7th, 1941, a date which will live in infamy, the United States of America was suddenly and deliberately attacked by naval and air forces of the Empire of Japan. The United States was at peace with that nation and, at the solicitation of Japan, was still in conversation with its government and its emperor looking toward the maintenance of peace in the Pacific.",
+  "duration_s": 49.58,
+  "n_refs": 1,
+  "split": "dev",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:FDR's_Speech_to_the_Congress_regarding_the_naval_attack_on_Pearl_Harbor.ogg"
+ },
+ {
+  "script_id": "S4",
+  "title": "Inaugural Address \u2014 \"Everywhere we look, there is work to be done\"",
+  "speaker": "Barack Obama",
+  "year": 2009,
+  "transcript": "For everywhere we look, there is work to be done. The state of our economy calls for action, bold and swift, and we will act, not only to create new jobs, but to lay a new foundation for growth. We will build the roads and bridges, the electric grids and digital lines that feed our commerce and bind us together. We will restore science to its rightful place, and wield technology's wonders to raise health care's quality and lower its cost. We will harness the sun and the winds and the soil to fuel our cars and run our factories. And we will transform our schools and colleges and universities to meet the demands of a new age. All this we can do. All this we will do.",
+  "duration_s": 46.0,
+  "n_refs": 1,
+  "split": "dev",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Barack_Obama_inauguration_speech_2009.ogg"
+ },
+ {
+  "script_id": "S5",
+  "title": "Farewell Address \u2014 \"The military-industrial complex\"",
+  "speaker": "Dwight D. Eisenhower",
+  "year": 1961,
+  "transcript": "In the councils of government, we must guard against the acquisition of unwarranted influence, whether sought or unsought, by the military-industrial complex. The potential for the disastrous rise of misplaced power exists and will persist. We must never let the weight of this combination endanger our liberties or democratic processes. We should take nothing for granted. Only an alert and knowledgeable citizenry can compel the proper meshing of the huge industrial and military machinery of defense with our peaceful methods and goals, so that security and liberty may prosper together.",
+  "duration_s": 44.5,
+  "n_refs": 1,
+  "split": "test",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Eisenhower_farewell_address.ogg"
+ },
+ {
+  "script_id": "S6",
+  "title": "Brandenburg Gate address \u2014 \"Come here to this gate\"",
+  "speaker": "Ronald Reagan",
+  "year": 1987,
+  "transcript": "There is one sign the Soviets can make that would be unmistakable, that would advance dramatically the cause of freedom and peace. General Secretary Gorbachev, if you seek peace, if you seek prosperity for the Soviet Union and Eastern Europe, if you seek liberalization: come here to this gate! Mr. Gorbachev, open this gate!",
+  "duration_s": 31.4,
+  "n_refs": 1,
+  "split": "test",
+  "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+  "commons_page": "https://commons.wikimedia.org/wiki/File:Reagan_Brandenburg_Gate_speech.ogg"
+ }
+]

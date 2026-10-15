@@ -1,0 +1,16 @@
+{
+ "script_id": "S1",
+ "speaker": "John F. Kennedy",
+ "year": 1961,
+ "excerpt_s": [
+  94.51,
+  141.2
+ ],
+ "duration_s": 46.69,
+ "n_words": 80,
+ "asr_wer": 0.188,
+ "sha256": "9d30cb1c3f3bb510988f7b1ec0c2e81e810a09b2c9e9da7a35c1d7fa6be36c1b",
+ "source_sha256": "a257580da6eda796ed1c703e545865005753f7cb20cc042e0db3c44de82274fc",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:JFK_inaugural_address.ogg"
+}

@@ -1,0 +1,112 @@
+{
+ "speaker_id": "demo01",
+ "consent_version": "1.0",
+ "tasks": [
+  {
+   "task_id": "S5-good",
+   "script_id": "S5",
+   "kind": "good",
+   "instruction": {
+    "text": "Listen to the original once, then deliver the passage as well as you can, in your own voice."
+   }
+  },
+  {
+   "task_id": "S5-monotone",
+   "script_id": "S5",
+   "kind": "flawed",
+   "instruction": {
+    "type": "monotone",
+    "severity": "mild",
+    "words": [
+     29,
+     31
+    ],
+    "key_word": null,
+    "text": "Say the highlighted words flat, on one note, like reading a list."
+   }
+  },
+  {
+   "task_id": "S5-filler",
+   "script_id": "S5",
+   "kind": "flawed",
+   "instruction": {
+    "type": "filler",
+    "severity": "strong",
+    "words": [
+     78,
+     78
+    ],
+    "key_word": null,
+    "text": "Say \u201cuhh\u201d or \u201cumm\u201d just before the highlighted word."
+   }
+  },
+  {
+   "task_id": "S5-rushed",
+   "script_id": "S5",
+   "kind": "flawed",
+   "instruction": {
+    "type": "rushed",
+    "severity": "mild",
+    "words": [
+     54,
+     58
+    ],
+    "key_word": null,
+    "text": "Rush the highlighted words: say them a little faster than the rest."
+   }
+  },
+  {
+   "task_id": "S1-good",
+   "script_id": "S1",
+   "kind": "good",
+   "instruction": {
+    "text": "Listen to the original once, then deliver the passage as well as you can, in your own voice."
+   }
+  },
+  {
+   "task_id": "S1-filler",
+   "script_id": "S1",
+   "kind": "flawed",
+   "instruction": {
+    "type": "filler",
+    "severity": "strong",
+    "words": [
+     24,
+     24
+    ],
+    "key_word": null,
+    "text": "Say \u201cuhh\u201d or \u201cumm\u201d just before the highlighted word."
+   }
+  },
+  {
+   "task_id": "S1-rushed",
+   "script_id": "S1",
+   "kind": "flawed",
+   "instruction": {
+    "type": "rushed",
+    "severity": "mild",
+    "words": [
+     69,
+     72
+    ],
+    "key_word": null,
+    "text": "Rush the highlighted words: say them a little faster than the rest."
+   }
+  },
+  {
+   "task_id": "S1-missing_pause",
+   "script_id": "S1",
+   "kind": "flawed",
+   "instruction": {
+    "type": "missing_pause",
+    "severity": "strong",
+    "words": [
+     14,
+     14
+    ],
+    "key_word": null,
+    "text": "Do not pause after the highlighted word: run straight into the next one."
+   }
+  }
+ ]
+}

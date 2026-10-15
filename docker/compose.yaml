@@ -1,0 +1,9 @@
+services:
+  shruti:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ../data/studio:/app/data/studio   # Flaw Studio recordings stay on the host

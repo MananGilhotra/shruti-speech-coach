@@ -1,0 +1,16 @@
+{
+ "script_id": "S2",
+ "speaker": "John F. Kennedy",
+ "year": 1962,
+ "excerpt_s": [
+  528.0,
+  554.6
+ ],
+ "duration_s": 26.6,
+ "n_words": 67,
+ "asr_wer": 0.299,
+ "sha256": "173d7af90435de19dacd9ce31aab747dfd6e55ab35c4dc7bfc4e0a34bd6620a9",
+ "source_sha256": "7486fba805c20bde4d43750bd9c34aee86ab7acfd3854a1d0f3d64f62ae68b27",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:Jfk_rice_university_we_choose_to_go_to_the_moon.ogg"
+}

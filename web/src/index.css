@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    @apply bg-surface-sunken font-sans text-ink;
+    min-width: 1100px;
+  }
+  :focus-visible {
+    outline: 2px solid #6366f1;
+    outline-offset: 2px;
+  }
+  button:focus-visible,
+  a:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    outline: none;
+  }
+  ::selection {
+    background: #c7d2fe;
+  }
+}
+
+@layer components {
+  .field {
+    @apply h-9 w-full rounded-lg border border-line-strong bg-white px-3 text-sm text-ink placeholder:text-ink-faint focus:border-accent focus:outline-none focus:ring-2 focus:ring-accent-ring/40;
+  }
+  .field-label {
+    @apply mb-1 block text-xs font-medium text-ink-soft;
+  }
+  .link {
+    @apply font-medium text-accent underline decoration-indigo-300 underline-offset-2 hover:decoration-accent;
+  }
+  .num {
+    font-variant-numeric: tabular-nums;
+  }
+  .table-clean {
+    @apply w-full border-collapse text-sm;
+  }
+  .table-clean th {
+    @apply border-b border-line px-2 py-1.5 text-left text-2xs font-semibold uppercase tracking-wide text-ink-muted;
+  }
+  .table-clean td {
+    @apply border-b border-line px-2 py-1.5 align-top tabular-nums;
+  }
+  .table-clean tr:last-child td {
+    @apply border-b-0;
+  }
+  input[type='range'].range {
+    @apply h-1.5 w-full cursor-pointer appearance-none rounded-full bg-slate-200;
+    accent-color: #3730a3;
+  }
+  input[type='range'].range::-webkit-slider-thumb {
+    @apply h-4 w-4 appearance-none rounded-full border-2 border-white bg-accent;
+    box-shadow: 0 0 0 1px #3730a3;
+  }
+  input[type='range'].range::-moz-range-thumb {
+    @apply h-4 w-4 rounded-full border-2 border-white bg-accent;
+  }
+  input[type='range'].range:focus-visible {
+    @apply ring-2 ring-accent-ring ring-offset-2;
+  }
+  .teleprompter {
+    font-size: 1.6rem;
+    line-height: 1.55;
+    letter-spacing: 0.005em;
+  }
+}
+
+/* KaTeX display blocks in the narrow card column should scroll rather than overflow */
+.katex-display {
+  margin: 0.25rem 0 !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 0;
+}

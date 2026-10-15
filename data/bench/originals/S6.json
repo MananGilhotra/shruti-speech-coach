@@ -1,0 +1,16 @@
+{
+ "script_id": "S6",
+ "speaker": "Ronald Reagan",
+ "year": 1987,
+ "excerpt_s": [
+  690.0,
+  721.4
+ ],
+ "duration_s": 31.4,
+ "n_words": 54,
+ "asr_wer": 0.093,
+ "sha256": "428a377525bebdce56fce5e061724f4c07b4651d5b37bcdede7c57327882c6be",
+ "source_sha256": "9487b497735f6bb3ac82b1fda13d05968fa2e0af836ed9dd7df18f277f14cc0d",
+ "license": "Public domain (work of the US federal government, 17 U.S.C. \u00a7105)",
+ "commons_page": "https://commons.wikimedia.org/wiki/File:Reagan_Brandenburg_Gate_speech.ogg"
+}

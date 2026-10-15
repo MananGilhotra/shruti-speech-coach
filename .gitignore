@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.DS_Store
+# large / regenerable data (released via Hugging Face + Zenodo)
+data/raw/
+data/audio/
+data/renders/
+data/studio/uploads/
+data/cache/
+data/models/*.pt
+results/cache/
+web/node_modules/
+web/dist/

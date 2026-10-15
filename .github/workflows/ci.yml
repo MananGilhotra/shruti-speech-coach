@@ -1,0 +1,23 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  python:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg libsndfile1
+      - run: pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements.lock && pip install -e . --no-deps
+      - run: ruff check src tests
+      - run: SHRUTI_FAST_TESTS=1 pytest -q
+      - uses: actions/cache@v4
+        with: {path: ~/.cache/huggingface, key: hf-wav2vec2-base-960h}
+      - run: pytest -q -m slow   # integration: alignment, injection -> detection, golden reproducibility
+  web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: "22"}
+      - run: cd web && npm ci && npm run build
